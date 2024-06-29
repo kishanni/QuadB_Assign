@@ -14,7 +14,7 @@ fn main() {
         .read_line(&mut input)
         .expect("Failed to read line");
     
-    let input = input.trim(); // Remove any trailing newline characters
+    let input = input.trim(); 
     
     if is_palindrome(input) {
         println!("'{}' is a palindrome.", input);
